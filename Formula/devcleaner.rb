@@ -6,10 +6,10 @@ class DevCleaner < Formula
   homepage "https://github.com/DevCleaner/devcleaner"
   if OS.mac?
     url "https://github.com/DevCleaner/devcleaner/releases/download/v0.1.0/devcleaner-macos.tar.gz"
-    sha256 "a01314ef5f05f3184efb610bb3a7edeacfcbbf0cbc18ed0f253d8e34d8e81549"
+    sha256 "65f68ddb83e18aa4c4ee085d76133955f35f140fa9926151013f07edb360c5f7"
   else
     url "https://github.com/DevCleaner/devcleaner/releases/download/v0.1.0/devcleaner-linux-musl.tar.gz"
-    sha256 "ece28fc217db4ae5b64b74a38cd97af98b53d66ba11f7c0de3961bce73e3df06"
+    sha256 "7cbe990a4fc3401bb448619d392e2d725807637d4280cfa50cb1cc78544b31f5"
   end
   version "v0.1.0"
   license "MIT"
