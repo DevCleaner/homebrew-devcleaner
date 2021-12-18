@@ -5,13 +5,13 @@ class DevCleaner < Formula
   desc "A tool to search for node_modules an clean the projects selected"
   homepage "https://github.com/DevCleaner/devcleaner"
   if OS.mac?
-    url "https://github.com/DevCleaner/devcleaner/releases/download/v0.1.0/devcleaner-macos.tar.gz"
-    sha256 "9512c9ab83256cb01183057c0ba0357b7144467b859562d30b4f0bbd655011bd"
+    url "https://github.com/DevCleaner/devcleaner/releases/download/v0.1.1/devcleaner-macos.tar.gz"
+    sha256 "c3982bbb84ba97334b2a52a943b11dfbeabe578c6af0d0a616db8416cc6f6bf0"
   else
-    url "https://github.com/DevCleaner/devcleaner/releases/download/v0.1.0/devcleaner-linux-musl.tar.gz"
-    sha256 "e4ee5b01e6e408b51bea61eff697fb9ede040ac07149aacbb4a35bc41e70d081"
+    url "https://github.com/DevCleaner/devcleaner/releases/download/v0.1.1/devcleaner-linux-musl.tar.gz"
+    sha256 "1fd8bd0ccaf73937dbd9c752387bdd04100a724e839e2e2a63d6dcc64acfd6bb"
   end
-  version "v0.1.0"
+  version "v0.1.1"
   license "MIT"
 
   def install
