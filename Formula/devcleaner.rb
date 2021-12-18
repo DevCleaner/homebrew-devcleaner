@@ -1,17 +1,17 @@
 
 # Documentation: https://docs.brew.sh/Formula-Cookbook
 #                https://rubydoc.brew.sh/Formula
-class DevCleaner < Formula
+class Devcleaner < Formula
   desc "A tool to search for node_modules an clean the projects selected"
   homepage "https://github.com/DevCleaner/devcleaner"
   if OS.mac?
-    url "https://github.com/DevCleaner/devcleaner/releases/download/v0.1.1/devcleaner-macos.tar.gz"
-    sha256 "c3982bbb84ba97334b2a52a943b11dfbeabe578c6af0d0a616db8416cc6f6bf0"
+    url "https://github.com/DevCleaner/devcleaner/releases/download/v0.1.1.beta/devcleaner-macos.tar.gz"
+    sha256 "c77cf512d9381fd93fc49a4b87f0cd52a913a29810eaaaa0da17cb5544fc551b"
   else
-    url "https://github.com/DevCleaner/devcleaner/releases/download/v0.1.1/devcleaner-linux-musl.tar.gz"
-    sha256 "1fd8bd0ccaf73937dbd9c752387bdd04100a724e839e2e2a63d6dcc64acfd6bb"
+    url "https://github.com/DevCleaner/devcleaner/releases/download/v0.1.1.beta/devcleaner-linux-musl.tar.gz"
+    sha256 "bf0e330aaf1776ef0259bfd399cde4c403a99b2d13a4c503b3935672ee724d49"
   end
-  version "v0.1.1"
+  version "v0.1.1.beta"
   license "MIT"
 
   def install
